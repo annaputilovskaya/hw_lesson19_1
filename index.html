@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -269,7 +269,7 @@
         <main class="row">
             <div class="row text-center">
                 <div class="col-4">
-                    <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card mb-4 rounded-3 shadow-sm h-100">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Товар 1</h4>
                         </div>
@@ -281,7 +281,57 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="btn btn-success">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 rounded-3 shadow-sm h-100">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <input name="name" type="text"  class="form-control mb-4" id="exampleFormControlInput1" placeholder="Имя">
+                                </div>
+                                <div class="mb-3">
+                                    <input name="email" type="email"  class="form-control mb-4" id="exampleFormControlInput2" placeholder="Email">
+                                </div>
+                                    <button type="submit" class="btn btn-primary form-control mb-4">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2>
+                    FAQ
+                    </h2>
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn btn-outline-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                          Как купить?
+                        </button>
+                        <button class="btn btn-outline-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                          Как доставить?
+                        </button>
+                        <button class="btn btn-outline-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                          Какая гарантия??
+                        </button>
+                    </p>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body"> Some placeholder content1 for the collapse component.</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body"> Some placeholder content2 for the collapse component.</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body"> Some placeholder content3 for the collapse component.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
